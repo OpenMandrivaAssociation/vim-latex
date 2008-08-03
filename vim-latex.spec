@@ -1,6 +1,6 @@
 %define	name	vim-latex
 %define	version	20060325
-%define	release	%mkrel 4
+%define	release	%mkrel 5
 %define summary Advanced vim plugin for LaTeX editing
 %define group	Editors
 
