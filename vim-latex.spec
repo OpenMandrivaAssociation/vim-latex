@@ -5,7 +5,7 @@ Name:		vim-latex
 Summary:	Advanced vim plugin for LaTeX editing
 Version:	1.8.23
 Epoch:		1
-Release:	%mkrel 1
+Release:	%mkrel 2
 Source0:	http://downloads.sourceforge.net/project/vim-latex/snapshots/%{name}-%{version}-%{reldate}-%{rel}.tar.gz
 URL:		http://vim-latex.sf.net/
 Group:		Editors
@@ -23,9 +23,6 @@ Latex-Suite attempts to provide a comprehensive set of tools to
 view, edit and compile LaTeX documents in Vim. Together, they
 provide tools starting from macros to speed up editing LaTeX
 documents to functions for forward searching .dvi documents.
-
-This package does not contain the compiler part of Latex-Suite
-due to conflicts with the standard vim tex-compiler.
 
 %prep
 %setup -q -n %{name}-%{version}-%{reldate}-%{rel}
