@@ -1,11 +1,11 @@
-%define reldate	20100130
+%define reldate	20100129
 %define rel	r1104
 
 Name:		vim-latex
 Summary:	Advanced vim plugin for LaTeX editing
 Version:	1.8.23
 Epoch:		1
-Release:	%mkrel 3
+Release:	%mkrel 2
 Source0:	http://downloads.sourceforge.net/project/vim-latex/snapshots/%{name}-%{version}-%{reldate}-%{rel}.tar.gz
 URL:		http://vim-latex.sf.net/
 Group:		Editors
@@ -69,3 +69,47 @@ rm -rf %{buildroot}
 %{_datadir}/vim/ftplugin/*
 %{_datadir}/vim/indent/*
 %{_datadir}/vim/plugin/*
+
+
+%changelog
+* Mon Apr 19 2010 Ahmad Samir <ahmadsamir@mandriva.org> 1:1.8.23-2mdv2010.1
++ Revision: 536881
+- modify the description, package now has tex.vim in vim/vimfiles/
+
+* Fri Apr 16 2010 Ahmad Samir <ahmadsamir@mandriva.org> 1:1.8.23-1mdv2010.1
++ Revision: 535553
+- new upstream release 1.8.23
+- use make install
+- move compiler/tex.vim to vim/vimfiles/ to not conflict with vim-common
+
+* Wed Sep 09 2009 Thierry Vignaud <tv@mandriva.org> 20060325-6mdv2010.0
++ Revision: 434675
+- rebuild
+
+* Sun Aug 03 2008 Thierry Vignaud <tv@mandriva.org> 20060325-5mdv2009.0
++ Revision: 261864
+- rebuild
+
+* Wed Jul 30 2008 Thierry Vignaud <tv@mandriva.org> 20060325-4mdv2009.0
++ Revision: 255554
+- rebuild
+
+* Tue Jul 22 2008 Thierry Vignaud <tv@mandriva.org> 20060325-3mdv2009.0
++ Revision: 239732
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tv@mandriva.org> 20060325-1mdv2008.1
++ Revision: 129160
+- kill re-definition of %%buildroot on Pixel's request
+
+
+* Sat Jun 10 2006 Eskild Hustvedt <eskild@mandriva.org> 20060325-1mdv
+- New version 20060325
+- Requires tetex-latex
+
+* Sun Jan 22 2006 Eskild Hustvedt <eskild@mandrake.com> 20060120-1mdk
+- Initial Mandriva Linux package
+
