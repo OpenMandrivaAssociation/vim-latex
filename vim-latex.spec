@@ -5,7 +5,7 @@ Name:		vim-latex
 Summary:	Advanced vim plugin for LaTeX editing
 Version:	1.8.23
 Epoch:		1
-Release:	%mkrel 2
+Release:	3
 Source0:	http://downloads.sourceforge.net/project/vim-latex/snapshots/%{name}-%{version}-%{reldate}-%{rel}.tar.gz
 URL:		http://vim-latex.sf.net/
 Group:		Editors
