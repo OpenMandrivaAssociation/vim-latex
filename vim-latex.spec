@@ -7,7 +7,7 @@ Version:	1.8.23
 Epoch:		1
 Release:	3
 Source0:	http://downloads.sourceforge.net/project/vim-latex/snapshots/%{name}-%{version}-%{reldate}-%{rel}.tar.gz
-URL:		http://vim-latex.sf.net/
+URL:		https://vim-latex.sf.net/
 Group:		Editors
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 License:	Charityware
